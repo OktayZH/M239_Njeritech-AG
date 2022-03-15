@@ -10,6 +10,7 @@
 
 ### Vorstellung der Firma
 
+Njeritech ist unsere Firma, welche in Zukunft im Bereich der Hardware sich fokussieren wird. Wir wollen uns im Bereich des Hardware Handel und Verkauf neu etablieren. Wir wollen stets unseren Kunden einen fairen Preis bieten.
 
 
 ### Welche Art von Hosting macht in unserem Fall am meisten Sinn?
