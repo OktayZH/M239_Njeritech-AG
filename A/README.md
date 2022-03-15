@@ -1,6 +1,6 @@
 # Anforderungen
 
-![Firmenheader](images/Firmenheader.png)
+![Firmenheader](images/Firmenheader.PNG)
 
 ## Inhaltsverszeichnis
 - [Anforderungen](#anforderungen)
