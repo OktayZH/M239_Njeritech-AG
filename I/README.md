@@ -11,7 +11,10 @@
 
 ### Webserver
 
+
 **Wie kann derselbe Webserver unterschiedliche Websites hosten (Virtual Hosts)?**
+
+
 Durch Virtual Hosting kann man mehrere Websites hosten, da die Webserver auf einer gemeinsamen Hardware konfiguriert und installiert sind. Jeder dieser Webserver kann individuell konfiguriert werden. Dadurch, dass die Webserver individuell konfiguriert werden können, kann man auch unterschiedliche Internetdienste anbieten. Zum Beispiel kann eine API Schnittstelle installiert werden, um mit einem externen System zu interagieren.
 
 Es gibt jeweils zwei Arten von Virtual Hosting: 
@@ -22,12 +25,18 @@ Die andere Methode ist das ***Namensbasierte Virtual Hosting***. Dadurch kann ma
 
 
 ### Domain Name System
+
+
 ![DNS](images/DNS.png)
 
 **Wie funktioniert DNS?**
+
+
 Das DNS-System funktioniert ähnlich wie ein Telefonbuc. Es verwaltet die Zuweisung zwischen Namen und Nummern. DNS-Server übersetzen Namensanforderungen in IP-Adressen oder auch umgekehrt. Dabei steuern Sie welchen Server ein Endbenutzer erreicht, wenn er in seinen Webbrowser einen Domänen-Namen eingibt.
 
 **Welche "Ressource Record" -Typen gibt es? Wozu dienen Sie?**
+
+
 Um eine Namensauflösung durchzuführen, muss in den Datenbanken der DNS- bzw. Nameserver nach DNS-Einträgen gesucht werden, den sogenannten DNS-Records oder Resource Records. Hier ist jeder (dem Server bekannten) IP-Adresse ein Domain-Name zugeordnet.
 
 Hier eine Aufzählung der wichtigsten DNS Records:
@@ -66,17 +75,26 @@ Bei einer DNS-Anfrage kann nach drei verschiedenen Verfahren beantwortet werden.
 
 ### Information fremder Server
 
+
 **Wie können Angaben über einen beliebigen fremden Server herausgefunden werden?**
+
+
 In der Welt der Informatik gibt es zu viele Möglichkeiten um an Informationen eines fremden Servers zu gelangen. Zum Beispiel kann man zuerst versuchen eine Verbindung über eine IP-Adresse aufzubauen. Dann kann man einen Portscan machen und schauen welche Protokolle genutzt werden. Die Beschaffung von Informationen die nicht für die Öffentlichkeit gedacht sind ist jedoch illegal.
 
 Auch könnte man sich z.B. einen Zugriff verschaffen mit DNS Poisoning. Dabei wird ein Zielbenutzer auf eine falsche Website weitergeleitet und wird aufgefordert sich anzumelden. Sobald er dies tut kann man die gesammelten Informationen nutzen, um sich Zugriff auf den fremden Server zu verschaffen.
 
 ### Proxy
+
+
 ![Proxy](images/Proxy.png)
+
+
 **Was ist ein Proxy?**
 Ein Proxy Server ist eine Relaisstation zwischen einem Client wie Deinem Computer und einem Webserver, von dem Du Daten anfordern willst. Der Proxy Server kann als Programm auf Deinem Gerät realisiert sein oder auch auf einem eigenen Server installiert werden. Das wird besonders dann der Fall sein, wenn der Proxy Server den Datenverkehr für mehrere Clients überwachen soll.
 
 **Welche Funktionen übernimmt er?**
+
+
 Die Hauptfunktionen eines Proxies sind Verschleiern, Absichern und Beschleunigen von Datenübertragungen.
 
 Eine Anfrage an einen Server wird vom Proxy Server unter Angabe der eigenen IP-Adresse gestellt. Deine IP-Adresse bleibt bei einer solchen Anfrage vor dem Webserver verborgen. Damit kannst Du zum Beispiel Geoblocking umgehen und Webseiten aufrufen, die für Nutzer in Deinem Land gesperrt sind.
@@ -86,6 +104,8 @@ Proxy Server haben oft einen Cache, in dem sie die zuletzt geladenen Daten speic
 Der Proxy Server kann die ankommenden Datenpakete untersuchen und Schadprogramme herausfiltern. Die entsprechenden Regeln lassen sich auf die Erfordernisse Deines Netzwerks individuell anpassen.
 
 ### DMZ
+
+
 **Was ist eine DMZ?**
 
 DMZ, ausgeschrieben Demilitarisierte Zone, ist ein eigenes Netzwerk, das zwischen dem Internen und dem Externen Netz liegt. In dieser Zone liegen z.B Webservers oder Mailservers, dere Kommunikation durch Firewalls überwacht wird.
