@@ -78,10 +78,13 @@ Text
 
 ### DMZ
 **Was ist eine DMZ?**
-Text
+
+DMZ, ausgeschrieben Demilitarisierte Zone, ist ein eigenes Netzwerk, das zwischen dem Internen und dem Externen Netz liegt. In dieser Zone liegen z.B Webservers oder Mailservers, dere Kommunikation durch Firewalls überwacht wird.
+Die DMZ ist von aussen erreibar
 
 **Wozu dient sie?**
-Text
+
+Die DMZ dient als abschrimung des Internennetz. In dieser Zone kann man beispielsweise einen Webserver nach aussen freigeben ohne das Internenetz zu gefährden. 
 
 ### Weitere-Kapitel 
 Text
