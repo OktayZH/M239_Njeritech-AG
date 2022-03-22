@@ -1,12 +1,17 @@
 # Einleitung allgemein
 Einleitung allgemein (Erklärungen zum ganzen M239-Projekt)
 
-# Inhaltsverszeichnis
-Test
-## [A: Anforderungen](A/README.md)
-- 1. Kapitel (Stichwort)
-- 2. Kapitel (Stichwort)
-- ....weitere Kapitel (Stichworte)
+## Inhaltsverszeichnis
+
+### [A: Anforderungen](A/README.md)
+ **1. Vorstellung unserer Firma**
+ 
+ Njeritech ist unsere Firma, welche in Zukunft im Bereich der Hardware sich fokussieren wird. Wir wollen uns im Bereich des Hardware Handel und Verkauf neu etablieren. Wir wollen stets unseren Kunden einen fairen Preis bieten.
+
+**2. Welche Art von Hosting macht in unserem Fall am meisten Sinn?**
+
+Wir haben uns für die Cloudlösung entschieden, da diese in unserem Fall am meisten Sinn macht. Der wichtigste Grund dafür ist die Skalierbarkeit von der Cloud. Zudem fallen die Arbeitskosten für das Betreiben der Hardware weg. Detailliertere angaben dazu finden Sie im Abschnitt "A".
+
 
 
 ## [I: Know-How & Begriffe](I/README.md)
