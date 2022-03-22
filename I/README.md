@@ -8,7 +8,6 @@
     - [Information fremder Server](#information-fremder-server)
     - [Proxy](#proxy)
     - [DMZ](#dmz)
-    - [Weitere-Kapitel](#weitere-kapitel)
 
 ### Webserver
 
@@ -80,11 +79,9 @@ Text
 **Was ist eine DMZ?**
 
 DMZ, ausgeschrieben Demilitarisierte Zone, ist ein eigenes Netzwerk, das zwischen dem Internen und dem Externen Netz liegt. In dieser Zone liegen z.B Webservers oder Mailservers, dere Kommunikation durch Firewalls überwacht wird.
-Die DMZ ist von aussen erreibar
+![DMZ](images/DMZ.png)
 
 **Wozu dient sie?**
 
 Die DMZ dient als abschrimung des Internennetz. In dieser Zone kann man beispielsweise einen Webserver nach aussen freigeben ohne das Internenetz zu gefährden. 
 
-### Weitere-Kapitel 
-Text
