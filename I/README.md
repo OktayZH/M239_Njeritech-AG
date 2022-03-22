@@ -89,10 +89,11 @@ Der Proxy Server kann die ankommenden Datenpakete untersuchen und Schadprogramme
 **Was ist eine DMZ?**
 
 DMZ, ausgeschrieben Demilitarisierte Zone, ist ein eigenes Netzwerk, das zwischen dem Internen und dem Externen Netz liegt. In dieser Zone liegen z.B Webservers oder Mailservers, dere Kommunikation durch Firewalls überwacht wird.
-![DMZ](images/DMZ.png)
+
 
 **Wozu dient sie?**
 
 Die DMZ dient als abschrimung des Internen netz. In dieser Zone kann man beispielsweise einen Webserver nach aussen freigeben ohne das Internenetz zu gefährden.
 Durch die Trennung der DMZ vom internen Netz ist kein Zugriff für externe Anwender auf interne Ressourcen möglich. Das private Netzwerk bleibt vor Angriffen aus dem Internet oder vor Überlastung durch Internetanfragen geschützt.
 
+![DMZ](images/DMZ.png)
