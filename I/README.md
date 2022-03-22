@@ -22,6 +22,7 @@ Die andere Methode ist das ***Namensbasierte Virtual Hosting***. Dadurch kann ma
 
 
 ### Domain Name System
+![DNS](images/DNS.png)
 
 **Wie funktioniert DNS?**
 Das DNS-System funktioniert ähnlich wie ein Telefonbuc. Es verwaltet die Zuweisung zwischen Namen und Nummern. DNS-Server übersetzen Namensanforderungen in IP-Adressen oder auch umgekehrt. Dabei steuern Sie welchen Server ein Endbenutzer erreicht, wenn er in seinen Webbrowser einen Domänen-Namen eingibt.
@@ -71,6 +72,7 @@ In der Welt der Informatik gibt es zu viele Möglichkeiten um an Informationen e
 Auch könnte man sich z.B. einen Zugriff verschaffen mit DNS Poisoning. Dabei wird ein Zielbenutzer auf eine falsche Website weitergeleitet und wird aufgefordert sich anzumelden. Sobald er dies tut kann man die gesammelten Informationen nutzen, um sich Zugriff auf den fremden Server zu verschaffen.
 
 ### Proxy
+![Proxy](images/Proxy.png)
 **Was ist ein Proxy?**
 Ein Proxy Server ist eine Relaisstation zwischen einem Client wie Deinem Computer und einem Webserver, von dem Du Daten anfordern willst. Der Proxy Server kann als Programm auf Deinem Gerät realisiert sein oder auch auf einem eigenen Server installiert werden. Das wird besonders dann der Fall sein, wenn der Proxy Server den Datenverkehr für mehrere Clients überwachen soll.
 
