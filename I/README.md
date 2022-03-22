@@ -93,5 +93,6 @@ DMZ, ausgeschrieben Demilitarisierte Zone, ist ein eigenes Netzwerk, das zwische
 
 **Wozu dient sie?**
 
-Die DMZ dient als abschrimung des Internennetz. In dieser Zone kann man beispielsweise einen Webserver nach aussen freigeben ohne das Internenetz zu gefährden. 
+Die DMZ dient als abschrimung des Internen netz. In dieser Zone kann man beispielsweise einen Webserver nach aussen freigeben ohne das Internenetz zu gefährden.
+Durch die Trennung der DMZ vom internen Netz ist kein Zugriff für externe Anwender auf interne Ressourcen möglich. Das private Netzwerk bleibt vor Angriffen aus dem Internet oder vor Überlastung durch Internetanfragen geschützt.
 
