@@ -59,7 +59,7 @@ Die Einträge folgen in der Regel folgendem Format:
 - ttl: TTL steht für „Time to live“ und bezeichnet die Zeit (in Sekunden), die ein Eintrag im Cache zwischengespeichert werden darf. Nach Ablauf der Zeit kann nicht sichergestellt werden, dass der Resource Record noch aktuell ist. Die Angabe ist optional.
 - class: Theoretisch gibt es verschiedene Klassen für DNS-Records, praktisch beziehen die Einträge sich aber immer auf das Internet (als IN gekennzeichnet), weshalb auch diese Angabe optional ist.
 - type: In einer Zonendatei kommen verschiedene Typen von Resource Records vor (mehr dazu s. u.).
-- rdlength: Dieses optionale Feld gibt an, welchen Umfang das anschließende Datenfeld hat.
+- rdlength: Dieses optionale Feld gibt an, welchen Umfang das anschliessende Datenfeld hat.
 - rdata: Resource Data sind die Informationen, nach denen man den Namen der Domain auflösen möchte, beispielsweise die IP-Adresse.
 
 Bei einer DNS-Anfrage kann nach drei verschiedenen Verfahren beantwortet werden.
@@ -82,6 +82,19 @@ Bei einer DNS-Anfrage kann nach drei verschiedenen Verfahren beantwortet werden.
 In der Welt der Informatik gibt es zu viele Möglichkeiten um an Informationen eines fremden Servers zu gelangen. Zum Beispiel kann man zuerst versuchen eine Verbindung über eine IP-Adresse aufzubauen. Dann kann man einen Portscan machen und schauen welche Protokolle genutzt werden. Die Beschaffung von Informationen die nicht für die Öffentlichkeit gedacht sind ist jedoch illegal.
 
 Auch könnte man sich z.B. einen Zugriff verschaffen mit DNS Poisoning. Dabei wird ein Zielbenutzer auf eine falsche Website weitergeleitet und wird aufgefordert sich anzumelden. Sobald er dies tut kann man die gesammelten Informationen nutzen, um sich Zugriff auf den fremden Server zu verschaffen.
+
+Bei einem Server vor Ort zu dem man Informationen herausfinden möchte kann man folgendes tun:
+
+- Abklären ob es Dokumentationen hat die helfen
+- Unter den Teamkollegen fragen ob jemand den Server kennt
+- Verbindung auf den Server über Konsole oder via Remote versuchen
+- Netzwerkeinstellungen überprüfen, ist der Server in einer Zone die gewissen Diensten zugewiesen ist
+- Netzwerkverkehr analysieren
+- Überprüfen welche Dienste laufen, nicht benötigte deaktivieren
+- Auffällige Tasks analysieren
+- Zugangsberechtigungen überprüfen
+- Ereignisanzeige analysieren
+
 
 ### Proxy
 
