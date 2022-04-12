@@ -1,16 +1,41 @@
 # Anforderungen
 
 ## Inhaltsverszeichnis
-- [1. Kapitel](#1-kapitel)
-- [2. Kapitel](#2-kapitel)
-- [Weitere Kapitel](#weitere-kapitel)
 
-### 1-Kapitel 
-Text
+- [Know-How & Begriffe](#know-how--begriffe)
+  - [Inhaltsverszeichnis](#inhaltsverszeichnis)
+    - [Webserver](#webserver)
+    - [Domain Name System](#domain-name-system)
+    - [Information fremder Server](#information-fremder-server)
+    - [Proxy](#proxy)
+    - [DMZ](#dmz)
 
-### 2-Kapitel 
-Text
+### Webserver aufsetzen
 
+**Schritt 1: Installieren von Apache**
 
-### Weitere-Kapitel 
-Text
+```
+sudo apt-get update
+
+sudo apt-get upgrade
+
+sudo apt install apache2
+```
+
+**Schritt 2: Firewall anpassen**
+
+```
+sudo ufw app list
+```
+
+Zeigt die Anwendungsprofile an. Der Ouput sollte wie folgt aussehen:
+
+```
+Output
+Available applications:
+    Apache
+    Apache Full
+    Apache Secure
+```
+
+Die drei Anwendungsprofile öffnen verschiedene 
