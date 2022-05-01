@@ -15,6 +15,8 @@
 loginname: localadmin
 PW: Admin123
 
+IP (Public): http://188.154.55.68/
+
 **Schritt 1: Installieren von Apache**
 
 ```
