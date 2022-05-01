@@ -43,4 +43,28 @@ Available applications:
     Apache Secure
 ```
 
-Die drei Anwendungsprofile öffnen verschiedene 
+Die drei Anwendungsprofile öffnen verschiedene Ports. Wir verwenden das Anwendungsprofil Apache Full, da wir zu Beginn unsere Webseite über HTTP erreichen wollen und dann im weiteren Vorgehen eine HTTPS Weiterleitung erstellen.
+
+**Schritt 3: Test des Webservers
+
+Um zu überprüfen, ob unser Apache2 Dienst nun läuft benutzen wir folgenden Befehl: 
+```
+sudo systemctl status apache2
+```
+Folgender Output sollte folgen:
+```
+Output
+● apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+     Active: active (running) since Sun 2022-05-01 12:35:30 UTC; 2h 46min ago
+       Docs: https://httpd.apache.org/docs/2.4/
+   Main PID: 1018 (apache2)
+      Tasks: 55 (limit: 1137)
+     Memory: 8.0M
+     CGroup: /system.slice/apache2.service
+             ├─29435 /usr/sbin/apache2 -k start
+             ├─29437 /usr/sbin/apache2 -k start
+             └─29438 /usr/sbin/apache2 -k start
+```
+
+Nun sollte der Server über die IP-Adresse von aussen erreichbar sein. Falls der Webserver mit einer internen IP-Adresse läuft kann man auf dem Router eine DMZ einstellen und den Webserver dort hinzufügen. Dies haben wir gemacht und somit ist unser Server erstmal mit der IP-Adresse ``188.154.55.68`` auf Port 80 erreichbar.
