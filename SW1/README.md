@@ -12,6 +12,9 @@
 
 ### Webserver aufsetzen
 
+loginname: localadmin
+PW: Admin123
+
 **Schritt 1: Installieren von Apache**
 
 ```
