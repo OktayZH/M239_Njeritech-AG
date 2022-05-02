@@ -2,13 +2,10 @@
 
 ## Inhaltsverszeichnis
 
-- [Know-How & Begriffe](#know-how--begriffe)
+- [Anforderungen](#anforderungen)
   - [Inhaltsverszeichnis](#inhaltsverszeichnis)
-    - [Webserver](#webserver)
-    - [Domain Name System](#domain-name-system)
-    - [Information fremder Server](#information-fremder-server)
-    - [Proxy](#proxy)
-    - [DMZ](#dmz)
+    - [Webserver aufsetzen](#webserver-aufsetzen)
+    - [Webserver Erreichbarkeit konfigurieren](#webserver-erreichbarkeit-konfigurieren)
 
 ### Webserver aufsetzen
 
@@ -62,7 +59,8 @@ Output
              └─29438 /usr/sbin/apache2 -k start
 ```
 
-**Schritt 4:**
+### Webserver Erreichbarkeit konfigurieren
+
 
 Damit der Webserver nun von aussen erreichbar ist muss man Ihn nach aussen öffnen. Dies haben wir wie folgt auf dem Router eingestellt:
 
