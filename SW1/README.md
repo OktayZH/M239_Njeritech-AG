@@ -69,3 +69,7 @@ Damit der Webserver nun von aussen erreichbar ist muss man Ihn nach aussen öffn
 Unter Zugangskontrolle den Reiter DMZ auswählen und die lokale IP-Adresse angeben des Webservers. 
 
 ![DMZ](images/Sunrise-DMZ.PNG)
+
+Danach sollte der Webserver von aussen erreichbar sein über die Public IP des Routers. In unserem Fall ist es die IP-Adresse ``188.154.55.68``.
+
+![Erfolgreich-auf-Public-IP-Verbunden](images/Public-IP-Web.PNG)
