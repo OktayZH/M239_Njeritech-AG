@@ -15,12 +15,6 @@ Da wir einen Webshop betreiben werden haben wir uns für Shopify entschieden. Di
 
 Zuerst haben wir ein zukünftiges Desing ausgewählt für unsere Webseite. Anschliessend mussten wir auf Hostpoint eine Verbindung zur Shopify Webseite einrichten. 
 
-Folgende Records mussten wir im Hostpoint erstellen/anpassen:
-
-![CANEM-Record](images/CNAME-Record.PNG)
-
-![A-Record](images/A-Record.PNG)
-
 
 ### Weitere-Kapitel 
 Text
