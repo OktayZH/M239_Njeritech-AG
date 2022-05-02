@@ -40,7 +40,7 @@ Available applications:
 
 Die drei Anwendungsprofile öffnen verschiedene Ports. Wir verwenden das Anwendungsprofil Apache Full, da wir zu Beginn unsere Webseite über HTTP erreichen wollen und dann im weiteren Vorgehen eine HTTPS Weiterleitung erstellen.
 
-**Schritt 3: Test des Webservers
+**Schritt 3: Test des Webservers**
 
 Um zu überprüfen, ob unser Apache2 Dienst nun läuft benutzen wir folgenden Befehl: 
 ```
@@ -62,4 +62,10 @@ Output
              └─29438 /usr/sbin/apache2 -k start
 ```
 
-Nun sollte der Server über die IP-Adresse von aussen erreichbar sein. Falls der Webserver mit einer internen IP-Adresse läuft kann man auf dem Router eine DMZ einstellen und den Webserver dort hinzufügen. Dies haben wir gemacht und somit ist unser Server erstmal mit der IP-Adresse ``188.154.55.68`` auf Port 80 erreichbar.
+**Schritt 4:**
+
+Damit der Webserver nun von aussen erreichbar ist muss man Ihn nach aussen öffnen. Dies haben wir wie folgt auf dem Router eingestellt:
+
+Unter Zugangskontrolle den Reiter DMZ auswählen und die lokale IP-Adresse angeben des Webservers. 
+
+![DMZ](images/Sunrise-DMZ.PNG)
