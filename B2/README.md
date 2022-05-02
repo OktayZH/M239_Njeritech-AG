@@ -29,5 +29,25 @@ In dieser Konfigurationsdatei sollte es ca. wie folgt aussehen:
 
 ![Konfig-Datei](images/Konfig.PNG)
 
+Nun testen wir den Syntax der Konfigurationsdatei und laden den Dienst Apache neu. 
+
+```
+sudo apache2ctl configtest
+
+sudo systemctzl reload apache2
+```
+
+Als nächstes sollte man auf der Firewall HTTPS zulassen. Dies hatten wir in einem vorherigen Schritt schon gemacht aber hier noch als wiederholugn:
+
+```
+sudo ufw allow 'Apache Full'
+
+sudo ufw delete allow 'Apache'
+```
+
+Mit dem Befehl ```sudo ufw status``` kann man nun die Einstellungen überprüfen. Es sollte wie folgt aussehen:
+
+![UFW-HTTPS](images/UFW-HTTPS.PNG)
+
 ### Weitere-Kapitel 
 Text
