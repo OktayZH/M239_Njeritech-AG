@@ -1,16 +1,20 @@
 # Zertifikat für Webserver
 
 ## Inhaltsverszeichnis
-- [1. Kapitel](#1-kapitel)
-- [2. Kapitel](#2-kapitel)
-- [Weitere Kapitel](#weitere-kapitel)
+- [Zertifikat für Webserver](#zertifikat-für-webserver)
+  - [Inhaltsverszeichnis](#inhaltsverszeichnis)
+    - [Domäne njeritech.ch](#domäne-njeritechch)
+    - [Apache Konfigurieren](#apache-konfigurieren)
+    - [SSL-Zertifikat erstellen mit Certbot](#ssl-zertifikat-erstellen-mit-certbot)
+    - [Hostpoint Konfiguration](#hostpoint-konfiguration)
+    - [Quellen](#quellen)
 
 ### Domäne njeritech.ch
 
 Wir haben uns die Domäne beim Provider ``Hostpoint`` gekauft. Somit hatten wir eine gültige Domäne die wir für unsere Seite nutzen können, damit sich zukünftig Kunden einfacher unsere Seite besuchen können. 
 
 
-### Zertifikat erstellen mit Certbot
+### Apache Konfigurieren
 
 Wir haben uns das Tool Certbot zur Hilfe genommen, um automatisiert ein SSL-Zertifikat zu erhalten welches auch automatisch erneuert wird. 
 
@@ -49,5 +53,47 @@ Mit dem Befehl ```sudo ufw status``` kann man nun die Einstellungen überprüfen
 
 ![UFW-HTTPS](images/UFW-HTTPS.PNG)
 
-### Weitere-Kapitel 
-Text
+### SSL-Zertifikat erstellen mit Certbot
+
+Zuletzt müssen wir noch das Tool Certbot nutzen um ein SSL-Zertifikat zu generieren. 
+
+Folgenden Befehl muss man eingeben, um ein SSL-Zertifikat zu generieren ohne eine E-Mail Adresse hinterlassen zu müssen: 
+
+```
+sudo certbot --apache --register-unsafely-without-email
+```
+
+Danach kann man auswählen auf welche Adresse das HTTPS-Zertfikat aktiviert werden soll. Wir haben mit ENTER beide Namen aktiviert.
+
+```
+Which names would you like to activate HTTPS for?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+1: njeritech.ch
+2: www.njeritech.ch
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Select the appropriate numbers separated by commas and/or spaces, or leave input
+blank to select all options shown (Enter 'c' to cancel):
+```
+
+Zum Ende wird man noch gefragt, ob HTTP-Datenverkehr auf HTTPS umgeleitet werden soll. Dies wollen wir und wählen die Option 2. 
+
+```
+Please choose whether or not to redirect HTTP traffic to HTTPS, removing HTTP access.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+1: No redirect - Make no further changes to the webserver configuration.
+2: Redirect - Make all requests redirect to secure HTTPS access. Choose this for
+new sites, or if you're confident your site works on HTTPS. You can undo this
+change by editing your web server's configuration.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Select the appropriate number [1-2] then [enter] (press 'c' to cancel): 2
+```
+
+### Hostpoint Konfiguration
+
+Im Hostpoint müssen wir einen A-Record hinzufügen, welches auf die Public IP des Webservers verweist. Somit ist der Webserver nun auch von aussen über die Domäne njeritech.ch erreichbar.
+
+![Njeritech.ch](images/Njeritech.PNG)
+
+### Quellen
+
+Certbot Let's Encrypt = https://do.co/3y9msP8
