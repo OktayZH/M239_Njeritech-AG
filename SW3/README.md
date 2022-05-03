@@ -6,6 +6,7 @@
     - [1-Kapitel](#1-kapitel)
     - [Erste CMS Anbindung mit Shopify](#erste-cms-anbindung-mit-shopify)
     - [Zweite CMS Anbindung mit WordPress](#zweite-cms-anbindung-mit-wordpress)
+    - [Testing ob Wordpress Anpassungen auf dem Webserver auch erfolgen:](#testing-ob-wordpress-anpassungen-auf-dem-webserver-auch-erfolgen)
     - [Weitere-Kapitel](#weitere-kapitel)
 
 ### 1-Kapitel 
@@ -69,6 +70,15 @@ Vor der Anpassung für Wordpress sah die Konfigurationsdatei ca. wie folgt aus:
 Diese müssen wir nun wie folgt ergänzen, um Wordpress anzubinden:
 
 ![VH-Konfig-WP](images/VH-Konfig-WP.PNG)
+
+Nun müssen wir mit dem Befehl ``sudo a2ensite njeritech.ch-le-ssl.conf`` die Seite aktivieren.
+
+Da wir von unseren ersten Versuchen noch eine Konfig-Datei hatten müssen wir diese mit dem Befehl ``sudo a2dissite njeritech.ch`` deaktivieren.
+
+Zuletzt muss man den Apache Dienst neu laden mit dem Befehl ``sudo service apache2 reload``
+
+### Testing ob Wordpress Anpassungen auf dem Webserver auch erfolgen:
+
 
 ### Weitere-Kapitel 
 Text
