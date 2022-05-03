@@ -7,6 +7,7 @@
     - [Apache Konfigurieren](#apache-konfigurieren)
     - [SSL-Zertifikat erstellen mit Certbot](#ssl-zertifikat-erstellen-mit-certbot)
     - [Hostpoint Konfiguration](#hostpoint-konfiguration)
+    - [Testing](#testing)
     - [Quellen](#quellen)
 
 ### Domäne njeritech.ch
@@ -93,6 +94,12 @@ Select the appropriate number [1-2] then [enter] (press 'c' to cancel): 2
 Im Hostpoint müssen wir einen A-Record hinzufügen, welches auf die Public IP des Webservers verweist. Somit ist der Webserver nun auch von aussen über die Domäne njeritech.ch erreichbar.
 
 ![Njeritech.ch](images/Njeritech.PNG)
+
+### Testing
+
+Wir nutzen die Webseite https://ssllabs.com, um unser SSL-Zertifikat zu testen. Unser Zertifikat hat eine A-Bewertung erhalten und ist somit eine vertrauenswürdiges Zertifikat.
+
+![SSL-Report](images/SSL-Report.PNG)
 
 ### Quellen
 
