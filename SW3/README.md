@@ -7,7 +7,7 @@
     - [Erste CMS Anbindung mit Shopify](#erste-cms-anbindung-mit-shopify)
     - [Zweite CMS Anbindung mit WordPress](#zweite-cms-anbindung-mit-wordpress)
     - [Testing ob Wordpress Anpassungen auf dem Webserver auch erfolgen:](#testing-ob-wordpress-anpassungen-auf-dem-webserver-auch-erfolgen)
-    - [Weitere-Kapitel](#weitere-kapitel)
+    - [Quellen](#quellen)
 
 ### 1-Kapitel 
 Text
@@ -16,6 +16,8 @@ Text
 Zuerst hatten wir eine CMS Anbindung mit Shopify gemacht. Aber wie sich herausgestellt hat ist unsere 14-tägige Probezeit zu ende gegangen. Damit man aber weiterhin Shopify nutzen konnte, müsste man eine Pro Version abonnieren. Dies ist nicht Ziel der Sache und somit mussten wir uns nach neuen Lösungsansätzen umsehen.
 
 ### Zweite CMS Anbindung mit WordPress
+
+***Installation WordPress und Konfiguration Apache***
 
 Vor der Einrichtung von Wordpress müssen wir auf unserem Webserver gewisse Voraussetzungen erfüllen.
 
@@ -96,10 +98,49 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 mysql> CREATE DATABASE wordpress;
 Query OK, 1 row affected
+
+mysql> CREATE USER wordpress@localhost IDENTIFIED BY Admin123;
+Query OK, 1 row affected (0,00 sec)
+
+mysql> GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,ALTER
+    -> ON wordpress.*
+    -> TO wordpress@localhost;
+Query OK, 1 row affected (0,00 sec)
+
+mysql> FLUSH PRIVILEGES;
+Query OK, 1 row affected (0,00 sec)
+
+mysql> quit
+Bye
+
+sudo service mysql start
 ```
 
 ### Testing ob Wordpress Anpassungen auf dem Webserver auch erfolgen:
 
+Ziel dieses Tests ist es zu überprüfen ob Anpassungen auf WordPress auch lokale Auswirkungen haben
 
-### Weitere-Kapitel 
-Text
+Um dies zu testen werden wir im WordPress Portal ein Design installieren und überprüfen, ob dieser im richtigen Pfad lokal auf dem Webserver abgespeichert wird.
+
+So sieht der Ordner für themes zurzeit aus:
+
+```
+localadmin@njeritech-webserver: /srv/www/wordpress/wp-content/themes$ ls
+exs ext-tech index.php twentytwenty twentytwentyone twentytwentytwo
+```
+
+Nun werden wir auf dem WordPress Portal ein Design auswählen und diese installieren. Wir nehmen beispielsweise das Theme ``GeneratePress``:
+
+![Theme-Installation](images/Theme-installation.PNG)
+
+Nun sollte auf dem Webserver das Theme GeneratePress installiert sein:
+
+![Check-Theme](images/Check-Theme.PNG)
+
+***Test erfolgreich***
+
+Somit funktioniert die CMS Anbindung an unseren Webserver.
+
+### Quellen
+
+WordPress Installationsguide: https://do.co/3kzRGXG
