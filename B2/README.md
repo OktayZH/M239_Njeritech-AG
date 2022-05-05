@@ -105,3 +105,5 @@ Wir nutzen die Webseite https://ssllabs.com, um unser SSL-Zertifikat zu testen. 
 
 Certbot Let's Encrypt = https://do.co/3y9msP8
 
+SSL Test = https://bit.ly/3KSwvdU
+
