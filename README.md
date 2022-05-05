@@ -5,7 +5,7 @@ Internetserver mit verschiedenen Diensten konfigurieren und in Betrieb nehmen un
 
 - [Einleitung Modul 239](#einleitung-modul-239)
   - [Inhaltsverszeichnis](#inhaltsverszeichnis)
-    - [A: Anforderungen](#a-anforderungen)
+  - [A: Anforderungen](#a-anforderungen)
   - [I: Know-How & Begriffe](#i-know-how--begriffe)
   - [V: Vorgaben (Security / Service Operation)](#v-vorgaben-security--service-operation)
   - [SW1: Webserver installieren/konfigurieren](#sw1-webserver-installierenkonfigurieren)
@@ -18,7 +18,7 @@ Internetserver mit verschiedenen Diensten konfigurieren und in Betrieb nehmen un
   - [Reflexion](#reflexion)
 
 
-### [A: Anforderungen](A/README.md)
+## [A: Anforderungen](A/README.md)
  **1. Vorstellung unserer Firma**
  
  Njeritech ist unsere Firma, welche in Zukunft im Bereich der Hardware sich fokussieren wird. Wir wollen uns im Bereich des Hardware Handel und Verkauf neu etablieren. Wir wollen stets unseren Kunden einen fairen Preis bieten.
