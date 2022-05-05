@@ -21,7 +21,7 @@ sudo apt install upgrade
 sudo apt-get install postfix
 ```
 Nun sollte sich ein GUI öffnen 
-![Postfix](images/Postfi x.PNG)
+![Postfix](images/Postfix.PNG)
 
 Hier wählen wir "Internet Site". Im nächsten Schritt geben wir die System mail name angeben. In unserem Fall ist das "m239.domain"
 
