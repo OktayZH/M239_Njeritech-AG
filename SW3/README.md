@@ -3,14 +3,10 @@
 ## Inhaltsverszeichnis
 - [Anforderungen](#anforderungen)
   - [Inhaltsverszeichnis](#inhaltsverszeichnis)
-    - [1-Kapitel](#1-kapitel)
     - [Erste CMS Anbindung mit Shopify](#erste-cms-anbindung-mit-shopify)
     - [Zweite CMS Anbindung mit WordPress](#zweite-cms-anbindung-mit-wordpress)
     - [Testing ob Wordpress Anpassungen auf dem Webserver auch erfolgen:](#testing-ob-wordpress-anpassungen-auf-dem-webserver-auch-erfolgen)
     - [Quellen](#quellen)
-
-### 1-Kapitel 
-Text
 
 ### Erste CMS Anbindung mit Shopify
 Zuerst hatten wir eine CMS Anbindung mit Shopify gemacht. Aber wie sich herausgestellt hat ist unsere 14-tägige Probezeit zu ende gegangen. Damit man aber weiterhin Shopify nutzen konnte, müsste man eine Pro Version abonnieren. Dies ist nicht Ziel der Sache und somit mussten wir uns nach neuen Lösungsansätzen umsehen.
@@ -144,3 +140,5 @@ Somit funktioniert die CMS Anbindung an unseren Webserver.
 ### Quellen
 
 WordPress Installationsguide: https://do.co/3kzRGXG
+
+Shopify Installationsguide https://bit.ly/3vPlgPm (nicht mehr verwendet / Lizenz abgelaufen)
