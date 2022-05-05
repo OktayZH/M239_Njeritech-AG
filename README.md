@@ -32,6 +32,10 @@ Wir haben uns für die Cloudlösung entschieden, da diese in unserem Fall am mei
 ## [I: Know-How & Begriffe](I/README.md)
 
 - [Webserver](I/README.md/#Webserver)
+- [DNS](I/README.md/#Domain Name System)
+- [Informationen](I/README.md/#Informationen fremder Server)
+- [Proxy](I/README.md/#Proxy)
+- [DMZ](I/README.md/#DMZ)
 
 ## [V: Vorgaben (Security / Service Operation)](V/README.md)
 - 1. Kapitel (Stichwort)
