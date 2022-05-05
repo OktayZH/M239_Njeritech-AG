@@ -32,8 +32,8 @@ Wir haben uns für die Cloudlösung entschieden, da diese in unserem Fall am mei
 ## [I: Know-How & Begriffe](I/README.md)
 
 - [Webserver](I/README.md/#Webserver)
-- [DNS](I/README.md/#Domain_Name_System)
-- [Informationen](I/README.md/#Informationen_fremder_Server)
+- [Domain_Name_System](I/README.md/#Domain_Name_System)
+- [Informationen_fremder_Server](I/README.md/#Informationen_fremder_Server)
 - [Proxy](I/README.md/#Proxy)
 - [DMZ](I/README.md/#DMZ)
 
