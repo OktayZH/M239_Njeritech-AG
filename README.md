@@ -38,24 +38,25 @@ Wir haben uns für die Cloudlösung entschieden, da diese in unserem Fall am mei
 - [DMZ](I/README.md/#DMZ)
 
 ## [V: Vorgaben (Security / Service Operation)](V/README.md)
-- 1. Kapitel (Stichwort)
-- 2. Kapitel (Stichwort)
-- ....weitere Kapitel (Stichworte)
+
+- 
 
 ## [SW1: Webserver installieren/konfigurieren](SW1/README.md)
-- 1. Kapitel (Stichwort)
-- 2. Kapitel (Stichwort)
-- ....weitere Kapitel (Stichworte)
+
+- [Webserver aufsetzen](V/README.md/#Webserver_aufsetzen)
+- [Webserver Erreichbarkeit konfigurieren](I/README.md/#Webserver_Erreichbarkeit_konfigurieren)
 
 ## [SW2: Mailserver installieren/konfigurieren](SW2/README.md)
+
 - 1. Kapitel (Stichwort)
 - 2. Kapitel (Stichwort)
 - ....weitere Kapitel (Stichworte)
 
 ## [SW3: Weiterer Serverdienst installieren/konfigurieren](SW3/README.md)
-- 1. Kapitel (Stichwort)
-- 2. Kapitel (Stichwort)
-- ....weitere Kapitel (Stichworte)
+
+- [Erste CMS Ambindung mit Shopify](SW3/README.md/#Erste_CMS_Anbindung_mit_Shopify)
+- [Zweite CMS Anbindung mit WordPress](SW3/README.md/#Zweite_CMS_Anbindung_mit_WordPress)
+- [Testing ob WordPress Anpassungen auf dem Webserver erfolgen](SW3/README.md/#Testing_ob_WordPress_Anpassungen_auf_dem_Webserver_erfolgen:)
 
 ## [SW4: Protokollierung](SW4/README.md)
 - 1. Kapitel (Stichwort)
@@ -68,9 +69,11 @@ Wir haben uns für die Cloudlösung entschieden, da diese in unserem Fall am mei
 - ....weitere Kapitel (Stichworte)
  
 ## [B2: Zertifikate](B2/README.md)
-- 1. Kapitel (Stichwort)
-- 2. Kapitel (Stichwort)
-- ....weitere Kapitel (Stichworte)
+- [Domäne njeritech.ch](B2/README.md/#Domäne_njeritech.ch)
+- [Apache konfigurieren](B2/README.md/#Apache_konfigurieren)
+- [SSL-Zertifikat erstellen](B2/README.md/#SSL-Zertifikat_erstellen_mit_CertBot)
+- [Hostpoint Konfiguration](B2/README.md/#Hostpoint_Konfiguration)
+- [Testing](B2/README.md/#Testing)
 
 ## [T: Testing](T/README.md)
 - 1. Kapitel (Stichwort)
