@@ -8,6 +8,7 @@
     - [Information fremder Server](#information-fremder-server)
     - [Proxy](#proxy)
     - [DMZ](#dmz)
+    - [Quellen](#quellen)
 
 ### Webserver
 
@@ -131,3 +132,13 @@ Durch die Trennung der DMZ vom internen Netz ist kein Zugriff für externe Anwen
 
 ![DMZ](images/DMZ.png)
 
+
+### Quellen
+
+Webserver Virtual Hosts = https://bit.ly/3LO3pOj
+
+Domain Name System = https://bit.ly/3kGifKN
+
+Proxy = https://bit.ly/3KPAFmR
+
+DMZ = https://bit.ly/3sgG8MX
