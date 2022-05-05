@@ -20,7 +20,9 @@ sudo apt update
 sudo apt install upgrade
 sudo apt-get install postfix
 ```
-Nun sollte sich ein GUI öffnen 
+Nun sollte sich ein GUI öffnen
+
+
 ![Postfix](images/Postfix.PNG)
 
 Hier wählen wir "Internet Site". Im nächsten Schritt geben wir die System mail name angeben. In unserem Fall ist das "m239.domain"
@@ -76,7 +78,7 @@ Zuletzt muss man den Postfix dienst neustarten. Dies geht mit:
 sudo systemctl restart postfix
 ```
 
-### Testen
+### Kontrolle
 Um das ganze zu testen, kann man mit dem Befehl "echo" eine test mail send.
 
 Um echo nutzen zu können muss man zuerst die "mailutils" installieren
@@ -88,10 +90,3 @@ Wenn diese installiert kann man den folgenden Befehl senden. Es ist sehrwahrsche
 ```
 echo "Test email body" | mail -s "Subject line" <email_address>
 ```
-
-
-
-
-
-### Weitere-Kapitel 
-Text
