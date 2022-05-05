@@ -130,3 +130,4 @@ Die DMZ dient als abschrimung des Internen netz. In dieser Zone kann man beispie
 Durch die Trennung der DMZ vom internen Netz ist kein Zugriff für externe Anwender auf interne Ressourcen möglich. Das private Netzwerk bleibt vor Angriffen aus dem Internet oder vor Überlastung durch Internetanfragen geschützt.d
 
 ![DMZ](images/DMZ.png)
+
