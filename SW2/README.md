@@ -5,11 +5,33 @@
 - [2. Kapitel](#2-kapitel)
 - [Weitere Kapitel](#weitere-kapitel)
 
-### 1-Kapitel 
-Text
+## Voraussetzungen
+ - SSH Zugriff auf die TBZ-Cloud
+ - Gmail-Account mit google App Password
 
-### 2-Kapitel 
-Text
+
+## Postfix
+
+### Installation Postifix
+Als erstes Aktualisiren wir die Pakete und installieren Postifix:
+
+```
+sudo apt update
+sudo apt install upgrade
+sudo apt-get install postfix
+```
+Nun sollte sich ein GUI öffnen 
+        ![Postfix](images/Postfix.PNG)
+
+
+
+
+```
+
+```
+
+
+Kurz vor abschluss der Installation sollte folgendes Bild kommen: 
 
 
 ### Weitere-Kapitel 
