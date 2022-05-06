@@ -5,14 +5,17 @@
 - [Weitere Kapitel](#weitere-kapitel)
 
 ### Soll-Zustand
-Es sollen 3 Virtuelle System bereitgestellt werden, diese sollen 24/7 zur Verfügung stehen. Die drei virtuelle Systeme werden von einem Externen Anbieter gehostet. Sie sollen zudem unabhängig voneinander fungieren
+Es sollen 3 Virtuelle System bereitgestellt werden, diese sollen 24/7 zur Verfügung stehen. Die drei virtuelle Systeme werden von einem Externen Anbieter gehostet. Sie sollen zudem unabhängig voneinander fungieren.
 
 ### Mailserver
 Unser Mailserver wird auf der TBZ-Cloud gehostet, dieser wird mittel Postfix fungieren.
 
 
 ### Webserver 
-Der Webserver wir mittels Apache2 auf einem Ubuntu Server installiert. Dieser wird in der DMZ sein
+Der Webserver wir mittels Apache2 auf einem Ubuntu Server installiert. Dieser wird in der DMZ sein.
+
+### CMS
+Unser Onlineshop wird mit WordPress gestaltet. Dies wird dann an unseren Webserver angebunden.
 
 ### Verfügbarkeit
 Grundsätzlich bieten wir unseren Webshop 24/7 an. Die Verfügbarkeit muss gewährleistet werden. Um dies zu gewährleisten wird unsere Infrastruktur mit einem Monitoring-Tool überwacht. Falls das Monitoring-Tool einen Fehler/Ausfall detektieren sollte, kommt unser Picket dienst zum Einsatz. Der Picket dienst wird für Notfälle 24/7 zur Verfügung stehen, auch während Feiertage und Ferien.
