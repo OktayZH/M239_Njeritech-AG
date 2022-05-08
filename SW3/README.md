@@ -1,7 +1,7 @@
-# Anforderungen
+# CMS
 
 ## Inhaltsverszeichnis
-- [Anforderungen](#anforderungen)
+- [CMS](#cms)
   - [Inhaltsverszeichnis](#inhaltsverszeichnis)
     - [Erste CMS Anbindung mit Shopify](#erste-cms-anbindung-mit-shopify)
     - [Zweite CMS Anbindung mit WordPress](#zweite-cms-anbindung-mit-wordpress)

@@ -1,16 +1,13 @@
-# Know-How & Begriffe
+# Reflexion
 
 ## Inhaltsverszeichnis
-- [1. Kapitel](#1-kapitel)
-- [2. Kapitel](#2-kapitel)
-- [Weitere Kapitel](#weitere-kapitel)
+- [Reflexion](#reflexion)
+  - [Inhaltsverszeichnis](#inhaltsverszeichnis)
+    - [Oktay Yildiran](#oktay-yildiran)
+    - [Yanis Blust](#yanis-blust)
 
-### 1-Kapitel 
+### Oktay Yildiran
 Text
 
-### 2-Kapitel 
-Text
-
-
-### Weitere-Kapitel 
+### Yanis Blust
 Text
