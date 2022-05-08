@@ -3,15 +3,31 @@
 ## Inhaltsverszeichnis
 - [Testing](#testing)
   - [Inhaltsverszeichnis](#inhaltsverszeichnis)
-    - [1-Kapitel](#1-kapitel)
-    - [2-Kapitel](#2-kapitel)
+    - [Testing Webserver](#testing-webserver)
+      - [Apache Perfomancetest](#apache-perfomancetest)
+    - [Testing WordPress](#testing-wordpress)
     - [Testing-Mailserver](#testing-mailserver)
 
-### 1-Kapitel 
-Text
 
-### 2-Kapitel 
-Text
+### Testing Webserver 
+
+#### Apache Perfomancetest
+Beim Apache2 Webserver hat man die Möglichkeit die Auslastungskapazitäten mit ApacheBench zu testen. Dies macht man wie folgt:
+
+```
+apt-get update
+
+apt-get install -y apache2-utils
+
+
+ab -c 50 -n 50 https://njeritech.ch/
+```
+Danach wird die Performance unseres Webservers angezeigt. Wie man sieht hat unser Webserver zwischen 576ms und 938ms Verzögerung. Das Ziel in Zukunft wäre diese Verzögerung niedriger zu halten. 
+
+![Performancetest](images/Performancetest.PNG)
+
+
+### Testing WordPress
 
 
 ### Testing-Mailserver
