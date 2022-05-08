@@ -81,8 +81,7 @@ Wir haben uns für die Cloudlösung entschieden, da diese in unserem Fall am mei
 - ....weitere Kapitel (Stichworte)
 
 
-## [Reflexion](R/README.md)
-Lernprozess festgehalten (Form frei wählbar)
+
 
 
 - - -
