@@ -5,6 +5,7 @@
   - [Inhaltsverszeichnis](#inhaltsverszeichnis)
     - [Testing Webserver](#testing-webserver)
       - [Apache Perfomancetest](#apache-perfomancetest)
+      - [Security Tests](#security-tests)
     - [Testing WordPress](#testing-wordpress)
     - [Testing-Mailserver](#testing-mailserver)
 
@@ -26,9 +27,40 @@ Danach wird die Performance unseres Webservers angezeigt. Wie man sieht hat unse
 
 ![Performancetest](images/Performancetest.PNG)
 
+#### Security Tests
+
+**TLS Test auf  https://cdn77.com/tls-test**
+
+![DCN77-Test](images/CDN77.PNG)
+
+**SSL Test auf https://ssllabs.com/ssltest**
+
+![SSLLABS-Test](images/SSLLABS-Report.PNG)
+
 
 ### Testing WordPress
+Ziel dieses Tests ist es zu überprüfen ob Anpassungen auf WordPress auch lokale Auswirkungen haben
 
+Um dies zu testen werden wir im WordPress Portal ein Design installieren und überprüfen, ob dieser im richtigen Pfad lokal auf dem Webserver abgespeichert wird.
+
+So sieht der Ordner für themes zurzeit aus:
+
+```
+localadmin@njeritech-webserver: /srv/www/wordpress/wp-content/themes$ ls
+exs ext-tech index.php twentytwenty twentytwentyone twentytwentytwo
+```
+
+Nun werden wir auf dem WordPress Portal ein Design auswählen und diese installieren. Wir nehmen beispielsweise das Theme ``GeneratePress``:
+
+![Theme-Installation](images/Theme-installation.PNG)
+
+Nun sollte auf dem Webserver das Theme GeneratePress installiert sein:
+
+![Check-Theme](images/Check-Theme.PNG)
+
+***Test erfolgreich***
+
+Somit funktioniert die CMS Anbindung an unseren Webserver.
 
 ### Testing-Mailserver
 | Testbeschreibung | Tester | Teststatus | Testbeweis |
