@@ -11,6 +11,7 @@ Apache hat folgende Loglevels im Errorlog:
 
 ```
 Level                   Description
+
 emerg	                System is unusable
 alert	                Action must be taken immediately
 crit	                Critical conditions
