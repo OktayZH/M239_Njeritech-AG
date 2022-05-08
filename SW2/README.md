@@ -1,16 +1,20 @@
 # Mailserver
 
 ## Inhaltsverszeichnis
-- [1. Kapitel](#1-kapitel)
-- [2. Kapitel](#2-kapitel)
-- [Weitere Kapitel](#weitere-kapitel)
 
-## Voraussetzungen
- - SSH Zugriff auf die TBZ-Cloud
- - Gmail-Account mit google App Password
-
+- [Mailserver](#Mailserver)
+  - [Inhaltsverszeichnis](#Inhaltsverszeichnis)
+  - [Postfix](#Postfix)
+    - [Voraussetzungen](#Voraussetzungen)
+    - [Installation Postfix](#installation-postifix)
+    - [Postfix konfigurieren](#postfix-konfigurieren)
+    - [Kontrolle](#kontrolle)
 
 ## Postfix
+
+###  Voraussetzungen
+- SSH Zugriff auf die TBZ-Cloud
+- Gmail-Account mti Google App Password
 
 ### Installation Postifix
 Als erstes Aktualisiren wir die Pakete und installieren Postifix:
@@ -28,7 +32,7 @@ Nun sollte sich ein GUI öffnen
 Hier wählen wir "Internet Site". Im nächsten Schritt geben wir die System mail name angeben. In unserem Fall ist das "m239.domain"
 
 
- ### Postfix konfigurieren
+### Postfix konfigurieren
 Als nächstes prüfen wir ob das confi-file vorhanden ist. Dies mit dem Befehl:
 ```
 cat /etc/postfix/main.cf
