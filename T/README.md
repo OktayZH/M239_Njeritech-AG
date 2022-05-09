@@ -65,7 +65,7 @@ Somit funktioniert die CMS Anbindung an unseren Webserver.
 ### Testing-Mailserver
 | Testbeschreibung | Tester | Teststatus | Testbeweis |
 | :---- | :--- | :--- | :--- |
-| Mailserver versendet eine E-Mail and den angegebenen Empfänger und diese ist im Postausgang |  Yanis Blust | E-Mail ist im Postausgang |
-| Die versendete E-Mail kommt bei dem angegebenen Empfänger an | Yanis Blust | E-Mail ist im Posteingang | 
+| Mailserver versendet eine E-Mail and den angegebenen Empfänger und diese ist im Postausgang |  Yanis Blust | E-Mail ist im Postausgang | ![Theme-Installation](images/beweis_ausgang.png)
+| Die versendete E-Mail kommt bei dem angegebenen Empfänger an | Yanis Blust | E-Mail ist im Posteingang | ![Theme-Installation](images/beweis_eingang.PNG)
 
 
