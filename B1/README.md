@@ -72,7 +72,7 @@ Zuletzt die Benutzerberechtigung auf sudo setzen mit folgendem Befehl: <br>
 Wir testen nun ob die Berechtigungen richtig gesetzt wurden mit folgenden Befehlen:
 
 ```
-szdi tizcg test.txt
+sudo touch test.txt
 ls -l test.txt
 ```
 
