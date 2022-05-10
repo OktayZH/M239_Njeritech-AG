@@ -31,5 +31,14 @@ Unser Apache2 Server protokolliert den Server mit dem Loglevel warn, da wir nich
 
 ### Mailserver Postfix (TBZ-Cloud)
 
+Unser Mailserver welcher auf der TBZ-Cloud gehostet wird, erstellt automatisch logs. In diesem Logfile wird der durchgang der versendeten Mails Protokoliert. Diese kann man im folgenden file finden.
+```
+cat /var/log/mail.log
+```
+
+<br>Zudem gibt es noch den syslog. In diesem Logfile werden sämtliche befehle geloggt.
+```
+cat /var/log/syslog
+```
 
 #### Ablageort Postifx Logs
